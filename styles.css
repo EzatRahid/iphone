@@ -57,12 +57,26 @@ body{
     border-radius: 2px;
     margin-bottom: 8px;
 }
+.circles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin: 10px 0;
+}
+.circle{
+    height: 10px;
+    width: 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
 
 .screen{
-    height: calc(100% - 25px);
+    height: calc(100% - 50px);
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 5px;
+    gap: 10px;
+    padding: 16px 32px;
 }
 
 .screen button{
