@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    height: 56%;
+    width: 20%;
+    border: 5px solid #000;
+    border-radius: 35px;
+    background-color: #ccc;
+    padding: 0;
+}
+
+.top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top .bar{
+    width: 100px;
+    height: 20px;
+    border-radius: 0 0 20px 20px;
+    background-color: #000;
+}
