@@ -57,3 +57,23 @@ body{
     border-radius: 2px;
     margin-bottom: 8px;
 }
+
+.screen{
+    height: calc(100% - 25px);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+}
+
+.screen button{
+    border-radius: 50%;
+    border: 0;
+    outline: 0;
+    height: 70px;
+    width: 70px;
+}
+
+.screen:nth-child(10){
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
