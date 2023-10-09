@@ -28,7 +28,8 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-    
+    color: white;
+    font-size: 11px;
 }
 
 .top .bar{
@@ -99,8 +100,8 @@ body{
     border-radius: 50%;
     border: 1px solid #fff;
     outline: 0;
-    height: 70px;
-    width: 70px;
+    height: 60px;
+    width: 60px;
     backdrop-filter: blur(100px);
     background: transparent;
     color: white;
